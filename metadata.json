@@ -1,0 +1,6 @@
+{
+  "name": "PARTH AI - Legal Awareness Simplified",
+  "description": "AI-powered legal and civic assistance platform bridging the gap between Indian citizens and legal awareness in Hindi, English, and Hinglish. Developed by Team PARTH, REC Banda.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

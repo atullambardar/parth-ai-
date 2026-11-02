@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  .font-hindi {
+    font-family: 'Noto Sans Devanagari', 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+/* Custom smooth scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.4);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 116, 139, 0.6);
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(71, 85, 105, 0.5);
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 116, 139, 0.8);
+}
+
+/* Dynamic Legal Palette Styles */
+:root {
+  --theme-brand: #2563eb;
+  --theme-accent: #0d9488;
+}
+
+.theme-saffron-gold {
+  --theme-brand: #d97706;
+  --theme-accent: #059669;
+}
+
+.theme-emerald-justice {
+  --theme-brand: #059669;
+  --theme-accent: #d97706;
+}
+
+.theme-midnight-indigo {
+  --theme-brand: #6366f1;
+  --theme-accent: #ec4899;
+}
+
